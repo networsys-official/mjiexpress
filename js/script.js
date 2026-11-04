@@ -475,7 +475,7 @@
       `;
 
       button.appendChild(ripple);
-
+      
       setTimeout(() => ripple.remove(), 600);
     });
 
