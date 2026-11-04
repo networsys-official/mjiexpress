@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MJI Xpress Global | Logistics, Freight & Courier</title>
+<meta name="description" content="MJI Xpress Global - Logistics, Freight and Courier services worldwide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a href="#home" class="logo"><img src="img/logo.png" alt="MJI Xpress Global"></a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu">
+      <a href="#home" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="money.html">Money Saving Services</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#blog">Blogs</a>
+      <a href="#services">Shipping Logistics</a>
+      <a href="#freight">Freight Delivery Company</a>
+      <a href="#tracking" class="btn btn--sm"><span>Tracking Order</span></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="wrap hero__in">
+    <div class="hero__txt reveal">
+      <span class="tag">Logistics | Freight | Courier</span>
+      <h1>Delivering Your World, <em>Faster</em> &amp; Smarter</h1>
+      <p>Door-to-door shipping across 200+ countries with real-time tracking, secure handling and prices that keep more money in your pocket.</p>
+      <div class="hero__btns">
+        <a href="#tracking" class="btn"><span>Track Your Order</span></a>
+        <a href="#contact" class="btn btn--ghost"><span>Get a Free Quote</span></a>
+      </div>
+      <div class="stats">
+        <div><b data-count="25000">0</b><small>Deliveries</small></div>
+        <div><b data-count="200">0</b><small>Countries</small></div>
+        <div><b data-count="99">0</b><small>% On-time</small></div>
+      </div>
+    </div>
+    <div class="hero__art reveal">
+      <div class="globe"><div class="orbit"><i></i></div><div class="orbit o2"><i></i></div><span>🌍</span></div>
+      <div class="chip c1">✈ Air Freight</div><div class="chip c2">🚢 Sea Cargo</div><div class="chip c3">🚚 Road Express</div>
+    </div>
+  </div>
+</section>
+
+<section class="track" id="tracking">
+  <div class="wrap">
+    <form class="track__box reveal" id="trackForm">
+      <h3>📦 Track Your Order</h3>
+      <input type="text" id="trackNo" placeholder="Enter tracking number e.g. MJI123456" required>
+      <button class="btn" type="submit"><span>Track Now</span></button>
+      <p class="track__res" id="trackRes"></p>
+    </form>
+  </div>
+</section>
+
+<div class="marquee"><div class="marquee__t"><span>Logistics</span><span>Freight</span><span>Courier</span><span>Warehousing</span><span>Customs</span><span>Air Cargo</span><span>Sea Cargo</span><span>Logistics</span><span>Freight</span><span>Courier</span><span>Warehousing</span><span>Customs</span><span>Air Cargo</span><span>Sea Cargo</span></div></div>
+
+<section class="sec" id="about">
+  <div class="wrap about">
+    <div class="about__img reveal"><img src="https://picsum.photos/seed/logistics1/700/800" alt="Warehouse" loading="lazy"><div class="badge"><b>15+</b>Years of Trust</div></div>
+    <div class="reveal">
+      <span class="tag">About Us</span>
+      <h2>Your Trusted Global Logistics Partner</h2>
+      <p>MJI Xpress Global connects businesses and families worldwide through reliable logistics, freight forwarding and courier solutions. Our network, technology and people ensure every parcel arrives safely and on time.</p>
+      <ul class="ticks"><li>Transparent, money-saving pricing</li><li>Real-time shipment tracking</li><li>Dedicated 24/7 support team</li><li>Customs-cleared door-to-door delivery</li></ul>
+      <a href="#contact" class="btn"><span>Work With Us</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="services">
+  <div class="wrap">
+    <div class="head reveal"><span class="tag">Shipping Logistics</span><h2>Our Services</h2><p>Everything you need to move goods anywhere in the world.</p></div>
+    <div class="grid" id="serviceGrid"></div>
+  </div>
+</section>
+
+<section class="band" id="savings">
+  <div class="wrap band__in reveal"><div><h2>Money Saving Services</h2><p>Bulk discounts, consolidated shipments and smart routing – save up to 40% on every shipment.</p></div><a href="#contact" class="btn"><span>Claim Offer</span></a></div>
+</section>
+
+<section class="sec" id="events">
+  <div class="wrap">
+    <div class="head reveal"><span class="tag">Upcoming Events</span><h2>Join Us Live</h2></div>
+    <div class="events" id="eventList"></div>
+  </div>
+</section>
+
+<section class="band dark" id="freight">
+  <div class="wrap band__in reveal"><div><h2>Freight Delivery Company</h2><p>Full container, LCL, air and road freight handled end to end by experts.</p></div><a href="#contact" class="btn"><span>Book Freight</span></a></div>
+</section>
+
+<section class="sec alt" id="testimonials">
+  <div class="wrap">
+    <div class="head reveal"><span class="tag">Testimonials</span><h2>What Clients Say</h2></div>
+    <div class="slider reveal" id="slider"><div class="slides" id="slides"></div><div class="dots" id="dots"></div></div>
+  </div>
+</section>
+
+<section class="sec" id="faq">
+  <div class="wrap faq">
+    <div class="faq__img reveal"><img id="faqImg" src="https://picsum.photos/seed/faq0/700/600" alt="FAQ"><div class="ring"></div></div>
+    <div class="reveal">
+      <span class="tag">FAQ</span><h2>Frequently Asked Questions</h2>
+      <div id="faqList"></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="blog">
+  <div class="wrap">
+    <div class="head reveal"><span class="tag">Blogs</span><h2>Latest From Our Blog</h2></div>
+    <div class="blogs" id="blogList"></div>
+  </div>
+</section>
+
+<section class="sec" id="contact">
+  <div class="wrap">
+    <div class="head reveal"><span class="tag">Contact Us</span><h2>Let's Move Your Shipment</h2></div>
+    <div class="contact">
+      <form class="form reveal" id="contactForm" novalidate>
+        <div class="row"><label><input name="name" required placeholder=" "><span>Full Name</span></label><label><input type="email" name="email" required placeholder=" "><span>Email</span></label></div>
+        <label><input name="phone" placeholder=" "><span>Phone</span></label>
+        <label><textarea name="msg" rows="4" required placeholder=" "></textarea><span>Your Message</span></label>
+        <button class="btn" type="submit"><span>Send Message</span></button>
+        <p class="note" id="formNote"></p>
+      </form>
+      <div class="map reveal"><iframe title="Map" loading="lazy" src="https://www.google.com/maps?q=Greater+Noida,Uttar+Pradesh&output=embed"></iframe></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap"><p>© <span id="yr"></span> MJI Xpress Global. Logistics | Freight | Courier</p></div></footer>
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>
