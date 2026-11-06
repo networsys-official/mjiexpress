@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 <div class="progress" id="progress"></div>
@@ -143,8 +144,104 @@
 </section>
 </main>
 
-<footer class="foot"><div class="wrap"><p>© <span id="yr"></span> MJI Xpress Global. Logistics | Freight | Courier</p></div></footer>
+<footer class="mji-footer">
+
+    <div class="footer-container">
+
+        <!-- Animated Route -->
+        <div class="footer-route">
+            <div class="route-track"></div>
+            <span class="route-dot start"></span>
+            <span class="route-dot end"></span>
+            <span class="route-plane">✈</span>
+        </div>
+
+        <!-- Footer Columns -->
+        <div class="footer-grid">
+
+            <!-- Brand -->
+            <div class="footer-brand footer-reveal">
+
+                <a href="index.html">
+                    <img src="img/logo.png" alt="MJI Xpress Global">
+                </a>
+
+                <p>
+                    Delivering reliable shipping, logistics and freight
+                    solutions with speed, care and commitment.
+                    Connecting businesses across the world.
+                </p>
+
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-column footer-reveal">
+
+                <h3 class="footer-heading">Quick Links</h3>
+
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="money.html">Money Transfer</a></li>
+                    <li><a href="blog.html">Our Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+
+            </div>
+
+            <!-- Services -->
+            <div class="footer-column footer-reveal">
+
+                <h3 class="footer-heading">Our Services</h3>
+
+                <ul class="footer-links">
+                    <li><a href="shipping.html">Shipping Logistics</a></li>
+                    <li><a href="freight.html">Freight Services</a></li>
+                    <li><a href="index.html#tracking">Track Shipment</a></li>
+                    <li><a href="index.html#faq">FAQs</a></li>
+                </ul>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="footer-column footer-cta footer-reveal">
+
+                <h3 class="footer-heading">Let's Connect</h3>
+
+                <p>
+                    Have a shipment to send or need a logistics partner?
+                    Our team is ready to help you.
+                </p>
+
+                <a href="contact.html" class="footer-btn">
+                    Get In Touch <span>↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="footer-year"></span>
+                MJI Xpress Global. All Rights Reserved.
+            </p>
+
+            <div class="footer-bottom-links">
+                <a href="about.html">About</a>
+                <a href="shipping.html">Shipping</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
 <button class="totop" id="totop" aria-label="Back to top">↑</button>
 <script src="js/script.js"></script>
+<script src="js/footer.js"></script>
 </body>
 </html>

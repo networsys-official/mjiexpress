@@ -29,7 +29,10 @@
       ["📥", "Door Pickup", "Scheduled pickup from your location."],
       ["🌐", "International Shipping", "200+ countries and territories covered."],
       ["♻️", "Reverse Logistics", "Easy returns and exchange handling."],
-      ["💰", "Bulk Saver Plans", "Discounted rates for regular shippers."]
+      ["💰", "Bulk Saver Plans", "Discounted rates for regular shippers."],
+
+      ["⚕️", "Medical Logistics", "Discounted rates for regular shippers."]
+      
     ];
 
     const events = [
